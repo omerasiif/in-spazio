@@ -12,8 +12,8 @@ import {
 } from 'lucide-react';
 
 const images = {
-  kitchen: '/images/nid1.png',
-  partition: '/images/nid.png',
+  kitchen: '/images/spazio.png',
+  partition: '/images/spazio1.png',
 };
 
 const navItems = [
@@ -25,11 +25,11 @@ const navItems = [
 ];
 
 const projects = [
-  { category: 'Kitchen Interiors', title: 'Everyday, considered', image: images.kitchen, className: 'project-large' },
-  { category: 'Custom Interior Solutions', title: 'A considered division', image: images.partition, className: 'project-tall' },
-  { category: 'Home Interiors', title: 'Quietly distinctive', image: images.partition, className: 'project-wide' },
-  { category: 'Living Spaces', title: 'Room to live well', image: images.kitchen, className: 'project-medium' },
-  { category: 'Contemporary Interiors', title: 'Details with purpose', image: images.partition, className: 'project-medium' },
+  { category: 'Kitchen Interiors', title: 'Everyday, considered', image: '/images/spazio.png', className: 'project-large' },
+  { category: 'Custom Interior Solutions', title: 'A considered division', image: '/images/spazio2.png', className: 'project-tall' },
+  { category: 'Home Interiors', title: 'Quietly distinctive', image: '/images/spazio1.png', className: 'project-wide' },
+  { category: 'Living Spaces', title: 'Room to live well', image: '/images/spazio.png', className: 'project-medium' },
+  { category: 'Contemporary Interiors', title: 'Details with purpose', image: '/images/spazio2.png', className: 'project-medium' },
 ];
 
 const services = [
@@ -193,7 +193,7 @@ function App() {
                 Creating spaces with purpose, character <em>and detail.</em>
               </h2>
               <p className="body-copy">
-                IN SPAZIO Interiors provides interior and home solutions in Kerala, helping clients transform their spaces through thoughtful design, practical planning and carefully considered details.
+                IN SPAZIO Interiors provides interior and home solutions in Kerala, helping clients transform their spaces through thoughtful design, practical planning and carefully considered d[...]
               </p>
               <div className="about-meta">
                 <span>Kerala</span>
@@ -302,7 +302,7 @@ function App() {
               Beautiful spaces should also <em>work beautifully.</em>
             </h2>
             <p className="body-copy">
-              From the overall layout to the smallest detail, every element should have a purpose. Our approach combines visual character with practical functionality to create interiors that feel natural to live in.
+              From the overall layout to the smallest detail, every element should have a purpose. Our approach combines visual character with practical functionality to create interiors that fee[...]
             </p>
             <div className="principles">
               <div>
